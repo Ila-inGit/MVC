@@ -20,24 +20,44 @@ public class ObservableGameModel implements GameModel,Subject {
         return gameModel.getNGiocatori();
     }
 
+
     @Override
     public void inc() {
         gameModel.inc();
+    }
 
+    @Override
+    public String getNomegiocatore() {
+        return gameModel.getNomegiocatore();
+    }
+
+    @Override
+    public void setNomegiocatore(String nomegiocatore) {
+        gameModel.setNomegiocatore(nomegiocatore);
     }
 
     @Override
     public void subscribeObserver(Observer observer) {
         observers.add(observer);
-
     }
 
     @Override
-    public void notifyObservers() {
+    public void notifyObserversNum() {
         System.out.println("sto notificando gli observer:");
         for(Observer observer : observers){
-            observer.update();
+            observer.updateNumG();
         }
 
     }
+    @Override
+    public void notifyObserversName() {
+        System.out.println("sto notificando gli observer:");
+        for(Observer observer : observers){
+            observer.updateName();
+        }
+
+    }
+
+
+
 }

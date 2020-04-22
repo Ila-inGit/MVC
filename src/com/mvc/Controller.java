@@ -10,12 +10,15 @@ public class Controller {
 
     public void increment(){
         model.inc();
-        model.notifyObservers();
+        model.notifyObserversNum();
     }
-    public void dobleIncrement() {
+    public void doubleIncrement() {
         model.inc();
         model.inc();
-        model.notifyObservers();
+        model.notifyObserversNum();
     }
-
+    public void setName(String nome){
+        model.setNomegiocatore(nome);
+        model.notifyObserversName();
+    }
 }

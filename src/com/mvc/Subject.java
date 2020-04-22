@@ -2,5 +2,6 @@ package com.mvc;
 
 public interface Subject {
     void subscribeObserver(Observer observer);
-    void notifyObservers();
+    void notifyObserversNum();
+    void notifyObserversName();
 }

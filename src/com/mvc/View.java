@@ -12,11 +12,16 @@ public class View extends JLabel implements Observer {
     }
 
     @Override
-    public void update() {
-
+    public void updateNumG() {
         String s=
                 Integer.toString(theObservedModel.getNGiocatori());
         setText(s);
+        repaint();
+    }
+    public void updateName(){
+
+        String nome=theObservedModel.getNomegiocatore();
+        setText(nome);
         repaint();
     }
 

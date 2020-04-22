@@ -1,6 +1,9 @@
 package com.mvc;
 
 public interface GameModel {
-    public int getNGiocatori();
-    public void inc();
+    int getNGiocatori();
+    void inc();
+    String getNomegiocatore();
+    void setNomegiocatore(String nomegiocatore);
+
 }

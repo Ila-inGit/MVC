@@ -14,6 +14,6 @@ public class DoppioIncrementoAction extends AbstractAction {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        c.dobleIncrement();
+        c.doubleIncrement();
     }
 }
