@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.mvc.ComplexView</OriginalElement>
+  <nodes>
+    <node x="725.0" y="79.0">java.awt.event.ActionListener</node>
+    <node x="523.1567901234567" y="316.0">java.beans.JavaBean</node>
+    <node x="672.5327160493828" y="405.0">javax.swing.SwingContainer</node>
+    <node x="0.0" y="316.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+    <node x="753.5" y="158.0">javax.swing.Action</node>
+    <node x="841.5327160493828" y="405.0">javax.swing.SwingConstants</node>
+    <node x="231.03271604938277" y="158.0">java.awt.image.ImageObserver</node>
+    <node x="250.0" y="657.0">com.mvc.Subject</node>
+    <node x="405.8475308641976" y="583.0">com.mvc.ComplexView</node>
+    <node x="42.5" y="657.0">com.mvc.GameModel</node>
+    <node x="393.0" y="657.0">com.mvc.Controller</node>
+    <node x="0.0" y="736.0">com.mvc.GameModelImpl</node>
+    <node x="874.1567901234567" y="316.0">com.mvc.IncrementoAction</node>
+    <node x="219.0" y="316.0">java.awt.Container</node>
+    <node x="284.58765432098767" y="405.0">javax.swing.JComponent</node>
+    <node x="864.5" y="158.0">java.lang.Cloneable</node>
+    <node x="70.03271604938277" y="158.0">java.awt.MenuContainer</node>
+    <node x="728.2567901234568" y="583.0">com.mvc.View</node>
+    <node x="532.5327160493828" y="405.0">javax.accessibility.Accessible</node>
+    <node x="219.0" y="237.0">java.awt.Component</node>
+    <node x="161.0" y="736.0">com.mvc.ObservableGameModel</node>
+    <node x="392.03271604938277" y="158.0">java.io.Serializable</node>
+    <node x="728.5" y="0.0">java.util.EventListener</node>
+    <node x="558.0" y="657.0">com.mvc.Main</node>
+    <node x="761.0833333333333" y="237.0">javax.swing.AbstractAction</node>
+    <node x="648.1567901234567" y="316.0">com.mvc.DoppioIncrementoAction</node>
+    <node x="701.7567901234568" y="504.0">javax.swing.JLabel</node>
+    <node x="423.8475308641976" y="504.0">javax.swing.JPanel</node>
+    <node x="812.7567901234568" y="504.0">com.mvc.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javax.swing.JPanel" target="javax.swing.JComponent">
+      <point x="-30.333333333333314" y="-14.5" />
+      <point x="439.0141975308643" y="484.0" />
+      <point x="314.58765432098767" y="484.0" />
+      <point x="-30.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JComponent" target="java.awt.Container">
+      <point x="-15.0" y="-14.5" />
+      <point x="329.58765432098767" y="375.0" />
+      <point x="275.0" y="375.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JLabel" target="java.beans.JavaBean">
+      <point x="18.200000000000045" y="-14.5" />
+      <point x="765.4567901234568" y="474.0" />
+      <point x="831.0327160493828" y="474.0" />
+      <point x="831.0327160493828" y="385.0" />
+      <point x="610.6567901234567" y="385.0" />
+      <point x="35.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JPanel" target="javax.accessibility.Accessible">
+      <point x="30.333333333333314" y="-14.5" />
+      <point x="499.6808641975309" y="484.0" />
+      <point x="562.5327160493828" y="484.0" />
+      <point x="-30.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.Action" target="java.awt.event.ActionListener">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mvc.GameModelImpl" target="com.mvc.GameModel">
+      <point x="0.0" y="-14.5" />
+      <point x="-28.0" y="14.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+      <point x="0.0" y="-14.5" />
+      <point x="275.0" y="212.0" />
+      <point x="301.53271604938277" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mvc.ObservableGameModel" target="com.mvc.GameModel">
+      <point x="-46.0" y="-14.5" />
+      <point x="207.0" y="711.0" />
+      <point x="126.5" y="711.0" />
+      <point x="28.0" y="14.5" />
+    </edge>
+    <edge source="com.mvc.IncrementoAction" target="javax.swing.AbstractAction">
+      <point x="0.0" y="-14.5" />
+      <point x="955.6567901234567" y="291.0" />
+      <point x="872.0833333333333" y="291.0" />
+      <point x="37.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.AbstractAction" target="java.io.Serializable">
+      <point x="-49.33333333333334" y="-14.5" />
+      <point x="785.75" y="212.0" />
+      <point x="503.6993827160494" y="212.0" />
+      <point x="44.66666666666663" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JLabel" target="javax.swing.SwingContainer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JComponent" target="javax.swing.TransferHandler.HasGetTransferHandler">
+      <point x="-45.0" y="-14.5" />
+      <point x="299.58765432098767" y="385.0" />
+      <point x="99.5" y="385.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mvc.View" target="javax.swing.JLabel">
+      <point x="-19.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mvc.ComplexView" target="javax.swing.JPanel">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mvc.ObservableGameModel" target="com.mvc.Subject">
+      <point x="46.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.MenuContainer">
+      <point x="-37.33333333333337" y="-14.5" />
+      <point x="237.66666666666663" y="212.0" />
+      <point x="140.53271604938277" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JLabel" target="javax.swing.JComponent">
+      <point x="-36.39999999999998" y="-14.5" />
+      <point x="710.8567901234568" y="464.0" />
+      <point x="374.58765432098767" y="464.0" />
+      <point x="30.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JPanel" target="java.beans.JavaBean">
+      <point x="0.0" y="-14.5" />
+      <point x="469.3475308641976" y="474.0" />
+      <point x="522.0327160493828" y="474.0" />
+      <point x="522.0327160493828" y="385.0" />
+      <point x="575.6567901234567" y="385.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.io.Serializable">
+      <point x="37.33333333333337" y="-14.5" />
+      <point x="312.33333333333337" y="212.0" />
+      <point x="414.36604938271614" y="212.0" />
+      <point x="-44.66666666666663" y="14.5" />
+    </edge>
+    <edge source="javax.swing.AbstractAction" target="javax.swing.Action">
+      <point x="0.0" y="-14.5" />
+      <point x="835.0833333333333" y="212.0" />
+      <point x="799.0" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mvc.DoppioIncrementoAction" target="javax.swing.AbstractAction">
+      <point x="0.0" y="-14.5" />
+      <point x="751.1567901234567" y="291.0" />
+      <point x="798.0833333333333" y="291.0" />
+      <point x="-37.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JComponent" target="java.beans.JavaBean">
+      <point x="45.0" y="-14.5" />
+      <point x="389.58765432098767" y="375.0" />
+      <point x="540.6567901234567" y="375.0" />
+      <point x="-35.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JLabel" target="javax.accessibility.Accessible">
+      <point x="-18.200000000000045" y="-14.5" />
+      <point x="729.0567901234567" y="454.0" />
+      <point x="622.5327160493828" y="454.0" />
+      <point x="30.0" y="14.5" />
+    </edge>
+    <edge source="java.awt.event.ActionListener" target="java.util.EventListener">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.AbstractAction" target="java.lang.Cloneable">
+      <point x="49.33333333333334" y="-14.5" />
+      <point x="884.4166666666666" y="212.0" />
+      <point x="920.5" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.awt.Container" target="java.awt.Component">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JLabel" target="javax.swing.SwingConstants">
+      <point x="36.39999999999998" y="-14.5" />
+      <point x="783.6567901234567" y="484.0" />
+      <point x="915.5327160493828" y="484.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mvc.View" target="com.mvc.Observer">
+      <point x="19.0" y="-14.5" />
+      <point x="785.2567901234568" y="558.0" />
+      <point x="865.2567901234568" y="558.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="javax.swing.JComponent" target="java.io.Serializable">
+      <point x="15.0" y="-14.5" />
+      <point x="359.58765432098767" y="365.0" />
+      <point x="459.03271604938277" y="365.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5503184713375797" x="519.0" y="382.49999999999994" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
